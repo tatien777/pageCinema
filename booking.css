@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #0e0e0e;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.box {
+  background-color: #0e0e0e;
+  min-height: 80vh;
+  border-radius: 25px;
+  border: 1px solid white;
+  margin: 20px 10px;
+  box-shadow: 0 0 25px white;
+  padding: 1.5rem;
+}
+/* booking btn */
+.booking-btn {
+  border-radius: 99px;
+}
+
+.start-container {
+  display: incline;
+}
+/* #title-cinema::after{
+    
+  content: " gh ";
+  
+  color: yellow;
+
+ } */
+/* craousel owl */
+.owl-nav,
+.owl-dots {
+  display: none;
+}
+.flex-right{
+  
+    margin-left:auto ;
+}
+/* seat */
+.seat {
+  height: 10px;
+  width: 15px;
+  border-radius: 50%;
+  background: gray;
+}
+.seats {
+  display: grid;
+  grid-template-columns: repeat(2, 15px) 60px repeat(4, 15px) 60px repeat(
+      4,
+      15px
+    ) 60px repeat(3, 20px);
+  grid-gap: 5px;
+}
+.booked {
+    background: yellow;
+}
+
+.selected{
+    background: blueviolet;
+}
